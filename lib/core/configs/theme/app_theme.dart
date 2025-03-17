@@ -23,6 +23,16 @@ class AppTheme {
         borderRadius: BorderRadius.circular(4),
         borderSide: BorderSide.none,
       ),
+      enabledBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(4),
+        borderSide: BorderSide.none,
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.primary,
+        elevation: 0,
+      ),
     ),
   );
 }
